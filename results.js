@@ -1,10 +1,10 @@
 const RESULTS = {
   "groups": {
     "A": [
+      "South Korea",
       "Mexico",
-      "South Africa",
       "Czech Republic",
-      "South Korea"
+      "South África"
     ],
     "B": [
       "Switzerland",
