@@ -55,40 +55,38 @@ const FLAG_CODE = {
 };
 
 const AWARD_PLAYERS = [
+  // Argentina
+  { name: 'Lionel Messi', country: 'Argentina' },
+  { name: 'Lautaro Martínez', country: 'Argentina' },
+  { name: 'Julián Álvarez', country: 'Argentina' },
+  { name: 'Alexis Mac Allister', country: 'Argentina' },
+  { name: 'Enzo Fernández', country: 'Argentina' },
+  { name: 'Cristian Romero', country: 'Argentina' },
+  { name: 'Emiliano Martínez', country: 'Argentina' },
+  { name: 'Rodrigo De Paul', country: 'Argentina' },
+  { name: 'Nahuel Molina', country: 'Argentina' },
+  { name: 'Lisandro Martínez', country: 'Argentina' },
+  { name: 'Valentín Barco', country: 'Argentina' },
+  { name: 'Nicolás Paz', country: 'Argentina' },
+  { name: 'Giuliano Simeone', country: 'Argentina' },
+  { name: 'Exequiel Palacios', country: 'Argentina' },
+  { name: 'Thiago Almada', country: 'Argentina' },
+  { name: 'Alejandro Garnacho', country: 'Argentina' },
+  { name: 'Facundo Buonanotte', country: 'Argentina' },
+  { name: 'Valentín Carboni', country: 'Argentina' },
 
-  // France
-  { name: 'Kylian Mbappé', country: 'France' },
-  { name: 'Ousmane Dembélé', country: 'France' },
-  { name: 'Eduardo Camavinga', country: 'France' },
-  { name: 'Aurélien Tchouaméni', country: 'France' },
-  { name: 'William Saliba', country: 'France' },
-  { name: 'Ibrahima Konaté', country: 'France' },
-  { name: 'Theo Hernández', country: 'France' },
-  { name: 'Mike Maignan', country: 'France' },
-  { name: 'Marcus Thuram', country: 'France' },
-  { name: 'Michael Olise', country: 'France' },
-  { name: 'Désiré Doué', country: 'France' },
-  { name: 'Rayan Cherki', country: 'France' },
-  { name: 'Warren Zaïre-Emery', country: 'France' },
-  { name: 'Bradley Barcola', country: 'France' },
-  { name: 'Jean-Philippe Mateta', country: 'France' },
+  // Australia
+  { name: 'Harry Souttar', country: 'Australia' },
 
-  // England
-  { name: 'Jude Bellingham', country: 'England' },
-  { name: 'Harry Kane', country: 'England' },
-  { name: 'Phil Foden', country: 'England' },
-  { name: 'Bukayo Saka', country: 'England' },
-  { name: 'Cole Palmer', country: 'England' },
-  { name: 'Declan Rice', country: 'England' },
-  { name: 'Trent Alexander-Arnold', country: 'England' },
-  { name: 'John Stones', country: 'England' },
-  { name: 'Anthony Gordon', country: 'England' },
-  { name: 'Kobbie Mainoo', country: 'England' },
-  { name: 'Reece James', country: 'England' },
-  { name: 'Ollie Watkins', country: 'England' },
-  { name: 'Eberechi Eze', country: 'England' },
-  { name: 'Morgan Gibbs-White', country: 'England' },
-  { name: 'Marc Guéhi', country: 'England' },
+  // Austria
+  { name: 'David Alaba', country: 'Austria' },
+
+  // Belgium
+  { name: 'Kevin De Bruyne', country: 'Belgium' },
+  { name: 'Jérémy Doku', country: 'Belgium' },
+  { name: 'Romelu Lukaku', country: 'Belgium' },
+  { name: 'Thibaut Courtois', country: 'Belgium' },
+  { name: 'Loïs Openda', country: 'Belgium' },
 
   // Brazil
   { name: 'Vinícius Júnior', country: 'Brazil' },
@@ -106,6 +104,196 @@ const AWARD_PLAYERS = [
   { name: 'André', country: 'Brazil' },
   { name: 'Murillo', country: 'Brazil' },
   { name: 'Beraldo', country: 'Brazil' },
+  { name: 'Douglas Luiz', country: 'Brazil' },
+  { name: 'Lucas Paquetá', country: 'Brazil' },
+  { name: 'Éder Militão', country: 'Brazil' },
+  { name: 'Ederson', country: 'Brazil' },
+
+  // Canada
+  { name: 'Alphonso Davies', country: 'Canada' },
+  { name: 'Jonathan David', country: 'Canada' },
+
+  // Colombia
+  { name: 'Luis Díaz', country: 'Colombia' },
+  { name: 'James Rodríguez', country: 'Colombia' },
+  { name: 'Jhon Durán', country: 'Colombia' },
+  { name: 'Daniel Muñoz', country: 'Colombia' },
+  { name: 'Jefferson Lerma', country: 'Colombia' },
+  { name: 'Richard Ríos', country: 'Colombia' },
+
+  // Croatia
+  { name: 'Luka Modrić', country: 'Croatia' },
+  { name: 'Joško Gvardiol', country: 'Croatia' },
+
+  // Denmark
+  { name: 'Rasmus Højlund', country: 'Denmark' },
+  { name: 'Christian Eriksen', country: 'Denmark' },
+  { name: 'Pierre-Emile Højbjerg', country: 'Denmark' },
+  { name: 'Morten Hjulmand', country: 'Denmark' },
+
+  // Ecuador
+  { name: 'Moisés Caicedo', country: 'Ecuador' },
+
+  // Egypt
+  { name: 'Mohamed Salah', country: 'Egypt' },
+
+  // England
+  { name: 'Jude Bellingham', country: 'England' },
+  { name: 'Harry Kane', country: 'England' },
+  { name: 'Phil Foden', country: 'England' },
+  { name: 'Bukayo Saka', country: 'England' },
+  { name: 'Cole Palmer', country: 'England' },
+  { name: 'Declan Rice', country: 'England' },
+  { name: 'Trent Alexander-Arnold', country: 'England' },
+  { name: 'John Stones', country: 'England' },
+  { name: 'Anthony Gordon', country: 'England' },
+  { name: 'Kobbie Mainoo', country: 'England' },
+  { name: 'Reece James', country: 'England' },
+  { name: 'Ollie Watkins', country: 'England' },
+  { name: 'Eberechi Eze', country: 'England' },
+  { name: 'Morgan Gibbs-White', country: 'England' },
+  { name: 'Marc Guéhi', country: 'England' },
+  { name: 'Jarrod Bowen', country: 'England' },
+  { name: 'Levi Colwill', country: 'England' },
+  { name: 'Adam Wharton', country: 'England' },
+  { name: 'Harvey Elliott', country: 'England' },
+
+  // France
+  { name: 'Kylian Mbappé', country: 'France' },
+  { name: 'Ousmane Dembélé', country: 'France' },
+  { name: 'Eduardo Camavinga', country: 'France' },
+  { name: 'Aurélien Tchouaméni', country: 'France' },
+  { name: 'William Saliba', country: 'France' },
+  { name: 'Ibrahima Konaté', country: 'France' },
+  { name: 'Theo Hernández', country: 'France' },
+  { name: 'Mike Maignan', country: 'France' },
+  { name: 'Marcus Thuram', country: 'France' },
+  { name: 'Michael Olise', country: 'France' },
+  { name: 'Désiré Doué', country: 'France' },
+  { name: 'Rayan Cherki', country: 'France' },
+  { name: 'Warren Zaïre-Emery', country: 'France' },
+  { name: 'Bradley Barcola', country: 'France' },
+  { name: 'Jean-Philippe Mateta', country: 'France' },
+  { name: 'Lucas Hernandez', country: 'France' },
+  { name: 'Jules Koundé', country: 'France' },
+  { name: 'Dayot Upamecano', country: 'France' },
+  { name: 'Manu Koné', country: 'France' },
+
+  // Georgia
+  { name: 'Khvicha Kvaratskhelia', country: 'Georgia' },
+  { name: 'Giorgi Mamardashvili', country: 'Georgia' },
+  { name: 'Georges Mikautadze', country: 'Georgia' },
+
+  // Germany
+  { name: 'Florian Wirtz', country: 'Germany' },
+  { name: 'Jamal Musiala', country: 'Germany' },
+  { name: 'Kai Havertz', country: 'Germany' },
+  { name: 'Joshua Kimmich', country: 'Germany' },
+  { name: 'Antonio Rüdiger', country: 'Germany' },
+  { name: 'Marc-André ter Stegen', country: 'Germany' },
+  { name: 'Leroy Sané', country: 'Germany' },
+  { name: 'Nico Schlotterbeck', country: 'Germany' },
+  { name: 'Aleksandar Pavlović', country: 'Germany' },
+  { name: 'Deniz Undav', country: 'Germany' },
+  { name: 'Benjamin Henrichs', country: 'Germany' },
+  { name: 'Chris Führich', country: 'Germany' },
+  { name: 'Maximilian Beier', country: 'Germany' },
+  { name: 'Jonathan Tah', country: 'Germany' },
+  { name: 'Pascal Groß', country: 'Germany' },
+  { name: 'Robert Andrich', country: 'Germany' },
+  { name: 'Jamie Gittens', country: 'Germany' },
+
+  // Hungary
+  { name: 'Dominik Szoboszlai', country: 'Hungary' },
+
+  // Iran
+  { name: 'Mehdi Taremi', country: 'Iran' },
+
+  // Italy
+  { name: 'Nicolò Barella', country: 'Italy' },
+  { name: 'Alessandro Bastoni', country: 'Italy' },
+  { name: 'Federico Chiesa', country: 'Italy' },
+  { name: 'Gianluigi Donnarumma', country: 'Italy' },
+  { name: 'Riccardo Calafiori', country: 'Italy' },
+  { name: 'Destiny Udogie', country: 'Italy' },
+  { name: 'Mateo Retegui', country: 'Italy' },
+
+  // Ivory Coast
+  { name: 'Sébastien Haller', country: 'Ivory Coast' },
+  { name: 'Franck Kessié', country: 'Ivory Coast' },
+
+  // Japan
+  { name: 'Takefusa Kubo', country: 'Japan' },
+  { name: 'Kaoru Mitoma', country: 'Japan' },
+  { name: 'Wataru Endo', country: 'Japan' },
+  { name: 'Hiroki Ito', country: 'Japan' },
+
+  // Mexico
+  { name: 'Santiago Giménez', country: 'Mexico' },
+  { name: 'Edson Álvarez', country: 'Mexico' },
+  { name: 'Johan Vásquez', country: 'Mexico' },
+  { name: 'Luis Chávez', country: 'Mexico' },
+  { name: 'César Montes', country: 'Mexico' },
+  { name: 'Rodrigo Huescas', country: 'Mexico' },
+
+  // Morocco
+  { name: 'Achraf Hakimi', country: 'Morocco' },
+  { name: 'Yassine Bounou', country: 'Morocco' },
+  { name: 'Brahim Díaz', country: 'Morocco' },
+  { name: 'Ismael Saibari', country: 'Morocco' },
+  { name: 'Nayef Aguerd', country: 'Morocco' },
+
+  // Netherlands
+  { name: 'Xavi Simons', country: 'Netherlands' },
+  { name: 'Cody Gakpo', country: 'Netherlands' },
+  { name: 'Virgil van Dijk', country: 'Netherlands' },
+  { name: 'Frenkie de Jong', country: 'Netherlands' },
+  { name: 'Ryan Gravenberch', country: 'Netherlands' },
+  { name: 'Jeremie Frimpong', country: 'Netherlands' },
+  { name: 'Micky van de Ven', country: 'Netherlands' },
+  { name: 'Tijjani Reijnders', country: 'Netherlands' },
+  { name: 'Jorrel Hato', country: 'Netherlands' },
+
+  // Nigeria
+  { name: 'Victor Osimhen', country: 'Nigeria' },
+  { name: 'Victor Boniface', country: 'Nigeria' },
+  { name: 'Ademola Lookman', country: 'Nigeria' },
+  { name: 'Alex Iwobi', country: 'Nigeria' },
+
+  // Norway
+  { name: 'Erling Haaland', country: 'Norway' },
+  { name: 'Martin Ødegaard', country: 'Norway' },
+
+  // Paraguay
+  { name: 'Miguel Almirón', country: 'Paraguay' },
+
+  // Portugal
+  { name: 'Cristiano Ronaldo', country: 'Portugal' },
+  { name: 'Bernardo Silva', country: 'Portugal' },
+  { name: 'Bruno Fernandes', country: 'Portugal' },
+  { name: 'Rafael Leão', country: 'Portugal' },
+  { name: 'Rúben Dias', country: 'Portugal' },
+  { name: 'Nuno Mendes', country: 'Portugal' },
+  { name: 'Diogo Costa', country: 'Portugal' },
+  { name: 'João Neves', country: 'Portugal' },
+  { name: 'Vitinha', country: 'Portugal' },
+  { name: 'Gonçalo Ramos', country: 'Portugal' },
+  { name: 'Pedro Neto', country: 'Portugal' },
+  { name: 'João Félix', country: 'Portugal' },
+  { name: 'António Silva', country: 'Portugal' },
+  { name: 'Francisco Conceição', country: 'Portugal' },
+  { name: 'Gonçalo Inácio', country: 'Portugal' },
+  { name: 'João Palhinha', country: 'Portugal' },
+  { name: 'Diogo Jota', country: 'Portugal' },
+  { name: 'Matheus Nunes', country: 'Portugal' },
+
+  // Senegal
+  { name: 'Sadio Mané', country: 'Senegal' },
+  { name: 'Kalidou Koulibaly', country: 'Senegal' },
+
+  // South Korea
+  { name: 'Son Heung-min', country: 'South Korea' },
+  { name: 'Kim Min-jae', country: 'South Korea' },
 
   // Spain
   { name: 'Lamine Yamal', country: 'Spain' },
@@ -123,72 +311,31 @@ const AWARD_PLAYERS = [
   { name: 'Dean Huijsen', country: 'Spain' },
   { name: 'Álex Baena', country: 'Spain' },
   { name: 'Unai Simón', country: 'Spain' },
+  { name: 'Robin Le Normand', country: 'Spain' },
+  { name: 'Fabian Ruiz', country: 'Spain' },
+  { name: 'Martin Zubimendi', country: 'Spain' },
+  { name: 'Yeremy Pino', country: 'Spain' },
 
-  // Argentina
-  { name: 'Lionel Messi', country: 'Argentina' },
-  { name: 'Lautaro Martínez', country: 'Argentina' },
-  { name: 'Julián Álvarez', country: 'Argentina' },
-  { name: 'Alexis Mac Allister', country: 'Argentina' },
-  { name: 'Enzo Fernández', country: 'Argentina' },
-  { name: 'Cristian Romero', country: 'Argentina' },
-  { name: 'Emiliano Martínez', country: 'Argentina' },
-  { name: 'Rodrigo De Paul', country: 'Argentina' },
-  { name: 'Nahuel Molina', country: 'Argentina' },
-  { name: 'Lisandro Martínez', country: 'Argentina' },
-  { name: 'Valentín Barco', country: 'Argentina' },
-  { name: 'Nicolás Paz', country: 'Argentina' },
-  { name: 'Giuliano Simeone', country: 'Argentina' },
-  { name: 'Exequiel Palacios', country: 'Argentina' },
-  { name: 'Thiago Almada', country: 'Argentina' },
+  // Sweden
+  { name: 'Alexander Isak', country: 'Sweden' },
+  { name: 'Viktor Gyökeres', country: 'Sweden' },
 
-  // Germany
-  { name: 'Florian Wirtz', country: 'Germany' },
-  { name: 'Jamal Musiala', country: 'Germany' },
-  { name: 'Kai Havertz', country: 'Germany' },
-  { name: 'Joshua Kimmich', country: 'Germany' },
-  { name: 'Antonio Rüdiger', country: 'Germany' },
-  { name: 'Marc-André ter Stegen', country: 'Germany' },
-  { name: 'Leroy Sané', country: 'Germany' },
-  { name: 'Nico Schlotterbeck', country: 'Germany' },
-  { name: 'Aleksandar Pavlović', country: 'Germany' },
-  { name: 'Deniz Undav', country: 'Germany' },
-  { name: 'Benjamin Henrichs', country: 'Germany' },
-  { name: 'Chris Führich', country: 'Germany' },
-  { name: 'Maximilian Beier', country: 'Germany' },
+  // Switzerland
+  { name: 'Granit Xhaka', country: 'Switzerland' },
 
-  // Portugal
-  { name: 'Cristiano Ronaldo', country: 'Portugal' },
-  { name: 'Bernardo Silva', country: 'Portugal' },
-  { name: 'Bruno Fernandes', country: 'Portugal' },
-  { name: 'Rafael Leão', country: 'Portugal' },
-  { name: 'Rúben Dias', country: 'Portugal' },
-  { name: 'Nuno Mendes', country: 'Portugal' },
-  { name: 'Diogo Costa', country: 'Portugal' },
-  { name: 'João Neves', country: 'Portugal' },
-  { name: 'Vitinha', country: 'Portugal' },
-  { name: 'Gonçalo Ramos', country: 'Portugal' },
-  { name: 'Pedro Neto', country: 'Portugal' },
-  { name: 'João Félix', country: 'Portugal' },
-  { name: 'António Silva', country: 'Portugal' },
-  { name: 'Francisco Conceição', country: 'Portugal' },
+  // Turkey
+  { name: 'Arda Güler', country: 'Turkey' },
+  { name: 'Hakan Çalhanoğlu', country: 'Turkey' },
+  { name: 'Kenan Yıldız', country: 'Turkey' },
+  { name: 'Ferdi Kadıoğlu', country: 'Turkey' },
+  { name: 'Semih Kılıçsoy', country: 'Turkey' },
 
-  // Netherlands
-  { name: 'Xavi Simons', country: 'Netherlands' },
-  { name: 'Cody Gakpo', country: 'Netherlands' },
-  { name: 'Virgil van Dijk', country: 'Netherlands' },
-  { name: 'Frenkie de Jong', country: 'Netherlands' },
-  { name: 'Ryan Gravenberch', country: 'Netherlands' },
-  { name: 'Jeremie Frimpong', country: 'Netherlands' },
-  { name: 'Micky van de Ven', country: 'Netherlands' },
-  { name: 'Tijjani Reijnders', country: 'Netherlands' },
-  { name: 'Jorrel Hato', country: 'Netherlands' },
-
-  // Belgium
-  { name: 'Kevin De Bruyne', country: 'Belgium' },
-  { name: 'Jérémy Doku', country: 'Belgium' },
-  { name: 'Romelu Lukaku', country: 'Belgium' },
-  { name: 'Thibaut Courtois', country: 'Belgium' },
-  { name: 'Loïs Openda', country: 'Belgium' },
+  // Ukraine
+  { name: 'Artem Dovbyk', country: 'Ukraine' },
+  { name: 'Andriy Lunin', country: 'Ukraine' },
+  { name: 'Mykhailo Mudryk', country: 'Ukraine' },
+  { name: 'Oleksandr Zinchenko', country: 'Ukraine' },
+  { name: 'Georgiy Sudakov', country: 'Ukraine' },
 
   // Uruguay
   { name: 'Fede Valverde', country: 'Uruguay' },
@@ -196,84 +343,19 @@ const AWARD_PLAYERS = [
   { name: 'Ronald Araújo', country: 'Uruguay' },
   { name: 'Manuel Ugarte', country: 'Uruguay' },
   { name: 'José María Giménez', country: 'Uruguay' },
-
-  // Croatia
-  { name: 'Luka Modrić', country: 'Croatia' },
-  { name: 'Joško Gvardiol', country: 'Croatia' },
-
-  // Mexico
-  { name: 'Santiago Giménez', country: 'Mexico' },
-  { name: 'Edson Álvarez', country: 'Mexico' },
-
-  // Colombia
-  { name: 'Luis Díaz', country: 'Colombia' },
-  { name: 'James Rodríguez', country: 'Colombia' },
+  { name: 'Facundo Pellistri', country: 'Uruguay' },
+  { name: 'Nicolás de la Cruz', country: 'Uruguay' },
+  { name: 'Mathías Olivera', country: 'Uruguay' },
 
   // USA
   { name: 'Christian Pulisic', country: 'USA' },
   { name: 'Weston McKennie', country: 'USA' },
   { name: 'Giovanni Reyna', country: 'USA' },
   { name: 'Tim Weah', country: 'USA' },
-
-  // South Korea
-  { name: 'Son Heung-min', country: 'South Korea' },
-  { name: 'Kim Min-jae', country: 'South Korea' },
-
-  // Norway
-  { name: 'Erling Haaland', country: 'Norway' },
-  { name: 'Martin Ødegaard', country: 'Norway' },
-
-  // Sweden
-  { name: 'Alexander Isak', country: 'Sweden' },
-  { name: 'Viktor Gyökeres', country: 'Sweden' },
-
-  // Morocco
-  { name: 'Achraf Hakimi', country: 'Morocco' },
-  { name: 'Yassine Bounou', country: 'Morocco' },
-
-  // Japan
-  { name: 'Takefusa Kubo', country: 'Japan' },
-  { name: 'Kaoru Mitoma', country: 'Japan' },
-
-  // Turkey
-  { name: 'Arda Güler', country: 'Turkey' },
-  { name: 'Hakan Çalhanoğlu', country: 'Turkey' },
-
-  // Hungary
-  { name: 'Dominik Szoboszlai', country: 'Hungary' },
-
-  // Canada
-  { name: 'Alphonso Davies', country: 'Canada' },
-  { name: 'Jonathan David', country: 'Canada' },
-
-  // Senegal
-  { name: 'Sadio Mané', country: 'Senegal' },
-  { name: 'Kalidou Koulibaly', country: 'Senegal' },
-
-  // Ivory Coast
-  { name: 'Sébastien Haller', country: 'Ivory Coast' },
-  { name: 'Franck Kessié', country: 'Ivory Coast' },
-
-  // Egypt
-  { name: 'Mohamed Salah', country: 'Egypt' },
-
-  // Ecuador
-  { name: 'Moisés Caicedo', country: 'Ecuador' },
-
-  // Paraguay
-  { name: 'Miguel Almirón', country: 'Paraguay' },
-
-  // Switzerland
-  { name: 'Granit Xhaka', country: 'Switzerland' },
-
-  // Austria
-  { name: 'David Alaba', country: 'Austria' },
-
-  // Australia
-  { name: 'Harry Souttar', country: 'Australia' },
-
-  // Iran
-  { name: 'Mehdi Taremi', country: 'Iran' }
+  { name: 'Antonee Robinson', country: 'USA' },
+  { name: 'Folarin Balogun', country: 'USA' },
+  { name: 'Tyler Adams', country: 'USA' },
+  { name: 'Yunus Musah', country: 'USA' }
 ];
 
 function getFlagClass(team) {
