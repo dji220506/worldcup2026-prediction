@@ -56,7 +56,7 @@ const FLAG_CODE = {
 
 const AWARD_PLAYERS = [
   // Argentina
-  { name: 'Lionel Messi', country: 'Argentina' },
+  { name: 'Lionel Messi', country: 'Argentina' }, // Máximo goleador histórico
   { name: 'Lautaro Martínez', country: 'Argentina' },
   { name: 'Julián Álvarez', country: 'Argentina' },
   { name: 'Alexis Mac Allister', country: 'Argentina' },
@@ -73,7 +73,7 @@ const AWARD_PLAYERS = [
   { name: 'Thiago Almada', country: 'Argentina' },
   { name: 'Alejandro Garnacho', country: 'Argentina' },
   { name: 'Facundo Buonanotte', country: 'Argentina' },
-  { name: 'Valentín Carboni' , country: 'Argentina' },
+  { name: 'Valentín Carboni', country: 'Argentina' },
   { name: 'Nicolás González', country: 'Argentina' },
 
   // Australia
@@ -85,22 +85,25 @@ const AWARD_PLAYERS = [
   { name: 'David Alaba', country: 'Austria' },
   { name: 'Konrad Laimer', country: 'Austria' },
   { name: 'Marcel Sabitzer', country: 'Austria' },
+  { name: 'Marko Arnautović', country: 'Austria' }, // Máximo goleador en activo
 
   // Belgium
   { name: 'Kevin De Bruyne', country: 'Belgium' },
   { name: 'Jérémy Doku', country: 'Belgium' },
-  { name: 'Romelu Lukaku', country: 'Belgium' },
+  { name: 'Romelu Lukaku', country: 'Belgium' }, // Máximo goleador histórico
   { name: 'Thibaut Courtois', country: 'Belgium' },
   { name: 'Loïs Openda', country: 'Belgium' },
   { name: 'Amadou Onana', country: 'Belgium' },
   { name: 'Johan Bakayoko', country: 'Belgium' },
+  { name: 'Charles De Ketelaere', country: 'Belgium' },
+  { name: 'Leandro Trossard', country: 'Belgium' },
 
   // Brazil
   { name: 'Vinícius Júnior', country: 'Brazil' },
   { name: 'Rodrygo', country: 'Brazil' },
   { name: 'Raphinha', country: 'Brazil' },
   { name: 'Endrick', country: 'Brazil' },
-  { name: 'Neymar', country: 'Brazil' },
+  { name: 'Neymar', country: 'Brazil' }, // Máximo goleador histórico
   { name: 'Bruno Guimarães', country: 'Brazil' },
   { name: 'Gabriel Martinelli', country: 'Brazil' },
   { name: 'Marquinhos', country: 'Brazil' },
@@ -116,10 +119,13 @@ const AWARD_PLAYERS = [
   { name: 'Éder Militão', country: 'Brazil' },
   { name: 'Ederson', country: 'Brazil' },
   { name: 'Estêvão Willian', country: 'Brazil' },
+  { name: 'Bremer', country: 'Brazil' },
+  { name: 'Pedro', country: 'Brazil' }, // Goleador destacado en 2026
 
   // Canada
   { name: 'Alphonso Davies', country: 'Canada' },
   { name: 'Jonathan David', country: 'Canada' },
+  { name: 'Cyle Larin', country: 'Canada' }, // Máximo goleador histórico
   { name: 'Ismaël Koné', country: 'Canada' },
   { name: 'Stephen Eustáquio', country: 'Canada' },
 
@@ -132,35 +138,40 @@ const AWARD_PLAYERS = [
   { name: 'Richard Ríos', country: 'Colombia' },
   { name: 'Davinson Sánchez', country: 'Colombia' },
   { name: 'Yaser Asprilla', country: 'Colombia' },
+  { name: 'Luis Sinisterra', country: 'Colombia' },
+  { name: 'Rafael Santos Borré', country: 'Colombia' },
 
   // Croatia
   { name: 'Luka Modrić', country: 'Croatia' },
   { name: 'Joško Gvardiol', country: 'Croatia' },
   { name: 'Mateo Kovačić', country: 'Croatia' },
   { name: 'Martin Baturina', country: 'Croatia' },
+  { name: 'Andrej Kramarić', country: 'Croatia' }, // Máximo goleador en activo
+  { name: 'Ivan Perišić', country: 'Croatia' },
 
   // Denmark
   { name: 'Rasmus Højlund', country: 'Denmark' },
-  { name: 'Christian Eriksen', country: 'Denmark' },
+  { name: 'Christian Eriksen', country: 'Denmark' }, // Máximo goleador en activo
   { name: 'Pierre-Emile Højbjerg', country: 'Denmark' },
   { name: 'Morten Hjulmand', country: 'Denmark' },
   { name: 'Joachim Andersen', country: 'Denmark' },
 
   // Ecuador
   { name: 'Moisés Caicedo', country: 'Ecuador' },
+  { name: 'Enner Valencia', country: 'Ecuador' }, // Máximo goleador histórico
   { name: 'Piero Hincapié', country: 'Ecuador' },
   { name: 'Kendry Páez', country: 'Ecuador' },
   { name: 'Pervis Estupiñán', country: 'Ecuador' },
   { name: 'Willian Pacho', country: 'Ecuador' },
 
   // Egypt
-  { name: 'Mohamed Salah', country: 'Egypt' },
+  { name: 'Mohamed Salah', country: 'Egypt' }, // Máximo goleador en activo
   { name: 'Omar Marmoush', country: 'Egypt' },
   { name: 'Mostafa Mohamed', country: 'Egypt' },
 
   // England
   { name: 'Jude Bellingham', country: 'England' },
-  { name: 'Harry Kane', country: 'England' },
+  { name: 'Harry Kane', country: 'England' }, // Máximo goleador histórico
   { name: 'Phil Foden', country: 'England' },
   { name: 'Bukayo Saka', country: 'England' },
   { name: 'Cole Palmer', country: 'England' },
@@ -178,9 +189,11 @@ const AWARD_PLAYERS = [
   { name: 'Levi Colwill', country: 'England' },
   { name: 'Adam Wharton', country: 'England' },
   { name: 'Harvey Elliott', country: 'England' },
+  { name: 'Jack Grealish', country: 'England' },
+  { name: 'Marcus Rashford', country: 'England' },
 
   // France
-  { name: 'Kylian Mbappé', country: 'France' },
+  { name: 'Kylian Mbappé', country: 'France' }, // Máximo goleador en activo
   { name: 'Ousmane Dembélé', country: 'France' },
   { name: 'Eduardo Camavinga', country: 'France' },
   { name: 'Aurélien Tchouaméni', country: 'France' },
@@ -200,9 +213,10 @@ const AWARD_PLAYERS = [
   { name: 'Dayot Upamecano', country: 'France' },
   { name: 'Manu Koné', country: 'France' },
   { name: 'Christopher Nkunku', country: 'France' },
+  { name: 'Antoine Griezmann', country: 'France' },
 
   // Georgia
-  { name: 'Khvicha Kvaratskhelia', country: 'Georgia' },
+  { name: 'Khvicha Kvaratskhelia', country: 'Georgia' }, // Máximo goleador en activo
   { name: 'Giorgi Mamardashvili', country: 'Georgia' },
   { name: 'Georges Mikautadze', country: 'Georgia' },
 
@@ -224,13 +238,15 @@ const AWARD_PLAYERS = [
   { name: 'Pascal Groß', country: 'Germany' },
   { name: 'Robert Andrich', country: 'Germany' },
   { name: 'Jamie Gittens', country: 'Germany' },
+  { name: 'Serge Gnabry', country: 'Germany' },
+  { name: 'Niclas Füllkrug', country: 'Germany' },
 
   // Hungary
   { name: 'Dominik Szoboszlai', country: 'Hungary' },
   { name: 'Miloš Kerkez', country: 'Hungary' },
 
   // Iran
-  { name: 'Mehdi Taremi', country: 'Iran' },
+  { name: 'Mehdi Taremi', country: 'Iran' }, // Máximo goleador en activo
   { name: 'Sardar Azmoun', country: 'Iran' },
 
   // Italy
@@ -243,6 +259,8 @@ const AWARD_PLAYERS = [
   { name: 'Mateo Retegui', country: 'Italy' },
   { name: 'Giorgio Scalvini', country: 'Italy' },
   { name: 'Sandro Tonali', country: 'Italy' },
+  { name: 'Manuel Locatelli', country: 'Italy' },
+  { name: 'Ciro Immobile', country: 'Italy' }, // Máximo goleador en activo
 
   // Ivory Coast
   { name: 'Sébastien Haller', country: 'Ivory Coast' },
@@ -256,6 +274,8 @@ const AWARD_PLAYERS = [
   { name: 'Wataru Endo', country: 'Japan' },
   { name: 'Hiroki Ito', country: 'Japan' },
   { name: 'Takehiro Tomiyasu', country: 'Japan' },
+  { name: 'Daichi Kamada', country: 'Japan' },
+  { name: 'Ayase Ueda', country: 'Japan' },
 
   // Mexico
   { name: 'Santiago Giménez', country: 'Mexico' },
@@ -265,6 +285,8 @@ const AWARD_PLAYERS = [
   { name: 'César Montes', country: 'Mexico' },
   { name: 'Rodrigo Huescas', country: 'Mexico' },
   { name: 'Gilberto Chiquete', country: 'Mexico' },
+  { name: 'Orbelín Pineda', country: 'Mexico' },
+  { name: 'Raúl Jiménez', country: 'Mexico' }, // Máximo goleador en activo
 
   // Morocco
   { name: 'Achraf Hakimi', country: 'Morocco' },
@@ -273,6 +295,8 @@ const AWARD_PLAYERS = [
   { name: 'Ismael Saibari', country: 'Morocco' },
   { name: 'Nayef Aguerd', country: 'Morocco' },
   { name: 'Eliesse Ben Seghir', country: 'Morocco' },
+  { name: 'Hakim Ziyech', country: 'Morocco' },
+  { name: 'Youssef En-Nesyri', country: 'Morocco' },
 
   // Netherlands
   { name: 'Xavi Simons', country: 'Netherlands' },
@@ -285,6 +309,8 @@ const AWARD_PLAYERS = [
   { name: 'Tijjani Reijnders', country: 'Netherlands' },
   { name: 'Jorrel Hato', country: 'Netherlands' },
   { name: 'Nathan Aké', country: 'Netherlands' },
+  { name: 'Matthijs de Ligt', country: 'Netherlands' },
+  { name: 'Memphis Depay', country: 'Netherlands' }, // Máximo goleador en activo
 
   // Nigeria
   { name: 'Victor Osimhen', country: 'Nigeria' },
@@ -292,18 +318,22 @@ const AWARD_PLAYERS = [
   { name: 'Ademola Lookman', country: 'Nigeria' },
   { name: 'Alex Iwobi', country: 'Nigeria' },
   { name: 'Wilfred Ndidi', country: 'Nigeria' },
+  { name: 'Samuel Chukwueze', country: 'Nigeria' },
+  { name: 'Kelechi Iheanacho', country: 'Nigeria' },
 
   // Norway
-  { name: 'Erling Haaland', country: 'Norway' },
+  { name: 'Erling Haaland', country: 'Norway' }, // Máximo goleador histórico (ya en 2026)
   { name: 'Martin Ødegaard', country: 'Norway' },
   { name: 'Oscar Bobb', country: 'Norway' },
+  { name: 'Alexander Sørloth', country: 'Norway' },
 
   // Paraguay
   { name: 'Miguel Almirón', country: 'Paraguay' },
   { name: 'Julio Enciso', country: 'Paraguay' },
+  { name: 'Óscar Cardozo', country: 'Paraguay' },
 
   // Portugal
-  { name: 'Cristiano Ronaldo', country: 'Portugal' },
+  { name: 'Cristiano Ronaldo', country: 'Portugal' }, // Máximo goleador histórico mundial
   { name: 'Bernardo Silva', country: 'Portugal' },
   { name: 'Bruno Fernandes', country: 'Portugal' },
   { name: 'Rafael Leão', country: 'Portugal' },
@@ -323,15 +353,16 @@ const AWARD_PLAYERS = [
   { name: 'Matheus Nunes', country: 'Portugal' },
 
   // Senegal
-  { name: 'Sadio Mané', country: 'Senegal' },
+  { name: 'Sadio Mané', country: 'Senegal' }, // Máximo goleador histórico
   { name: 'Kalidou Koulibaly', country: 'Senegal' },
   { name: 'Nicolas Jackson', country: 'Senegal' },
   { name: 'Pape Matar Sarr', country: 'Senegal' },
 
   // South Korea
-  { name: 'Son Heung-min', country: 'South Korea' },
+  { name: 'Son Heung-min', country: 'South Korea' }, // Máximo goleador en activo
   { name: 'Kim Min-jae', country: 'South Korea' },
   { name: 'Lee Kang-in', country: 'South Korea' },
+  { name: 'Hwang Hee-chan', country: 'South Korea' },
 
   // Spain
   { name: 'Lamine Yamal', country: 'Spain' },
@@ -341,7 +372,7 @@ const AWARD_PLAYERS = [
   { name: 'Dani Olmo', country: 'Spain' },
   { name: 'Pau Cubarsí', country: 'Spain' },
   { name: 'Dani Carvajal', country: 'Spain' },
-  { name: 'Álvaro Morata', country: 'Spain' },
+  { name: 'Álvaro Morata', country: 'Spain' }, // Máximo goleador en activo
   { name: 'Gavi', country: 'Spain' },
   { name: 'Mikel Merino', country: 'Spain' },
   { name: 'Aleix García', country: 'Spain' },
@@ -354,16 +385,22 @@ const AWARD_PLAYERS = [
   { name: 'Martin Zubimendi', country: 'Spain' },
   { name: 'Yeremy Pino', country: 'Spain' },
   { name: 'Marc Casadó', country: 'Spain' },
+  { name: 'Mikel Oyarzabal', country: 'Spain' }, // Goleador decisivo
+  { name: 'Bryan Zaragoza', country: 'Spain' },
+  { name: 'Samu Omorodion', country: 'Spain' },
+  { name: 'Ferran Torres', country: 'Spain' },
 
   // Sweden
   { name: 'Alexander Isak', country: 'Sweden' },
-  { name: 'Viktor Gyökeres', country: 'Sweden' },
+  { name: 'Viktor Gyökeres', country: 'Sweden' }, // Goleador principal 2026
   { name: 'Dejan Kulusevski', country: 'Sweden' },
 
   // Switzerland
   { name: 'Granit Xhaka', country: 'Switzerland' },
   { name: 'Manuel Akanji', country: 'Switzerland' },
   { name: 'Gregor Kobel', country: 'Switzerland' },
+  { name: 'Dan Ndoye', country: 'Switzerland' },
+  { name: 'Xherdan Shaqiri', country: 'Switzerland' }, // Máximo goleador en activo
 
   // Turkey
   { name: 'Arda Güler', country: 'Turkey' },
@@ -372,6 +409,8 @@ const AWARD_PLAYERS = [
   { name: 'Ferdi Kadıoğlu', country: 'Turkey' },
   { name: 'Semih Kılıçsoy', country: 'Turkey' },
   { name: 'Barış Alper Yılmaz', country: 'Turkey' },
+  { name: 'Kerem Aktürkoğlu', country: 'Turkey' },
+  { name: 'Cenk Tosun', country: 'Turkey' }, // Máximo goleador en activo
 
   // Ukraine
   { name: 'Artem Dovbyk', country: 'Ukraine' },
@@ -380,6 +419,7 @@ const AWARD_PLAYERS = [
   { name: 'Oleksandr Zinchenko', country: 'Ukraine' },
   { name: 'Georgiy Sudakov', country: 'Ukraine' },
   { name: 'Ilya Zabarnyi', country: 'Ukraine' },
+  { name: 'Andriy Yarmolenko', country: 'Ukraine' }, // Máximo goleador en activo
 
   // Uruguay
   { name: 'Fede Valverde', country: 'Uruguay' },
@@ -390,9 +430,11 @@ const AWARD_PLAYERS = [
   { name: 'Facundo Pellistri', country: 'Uruguay' },
   { name: 'Nicolás de la Cruz', country: 'Uruguay' },
   { name: 'Mathías Olivera', country: 'Uruguay' },
+  { name: 'Luciano Rodríguez', country: 'Uruguay' },
+  { name: 'Luis Suárez', country: 'Uruguay' }, // Máximo goleador histórico
 
   // USA
-  { name: 'Christian Pulisic', country: 'USA' },
+  { name: 'Christian Pulisic', country: 'USA' }, // Máximo goleador en activo
   { name: 'Weston McKennie', country: 'USA' },
   { name: 'Giovanni Reyna', country: 'USA' },
   { name: 'Tim Weah', country: 'USA' },
