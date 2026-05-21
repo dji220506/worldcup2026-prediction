@@ -81,8 +81,13 @@ const RESULTS = {
   runnerUp: "",
   thirdPlaceWinner: "",
 
-  awards: {
-    goldenBoot: [],
+"awards": {
+    "goldenBoot": [
+      "Artem Dovbyk",
+      "Harry Kane",
+      "Vinícius Júnior"
+    ],
+
     goldenBall: []
   }
 };
