@@ -2394,11 +2394,6 @@ function closePredictionModal() {
 }
 
 
-El error principal está en los dos primeros elementos de la lista de la **Fase de grupos**. Tienes puesto dos veces el texto `"Resultado exacto de partido:"` seguido de los puntos. El segundo debería decir `"Diferencia de goles correcta:"`.
-
-Aquí tienes la función corregida y limpia para que la reemplaces directamente:
-
-
 function openScoringHelpModal() {
   const modal = document.getElementById('predictionModal');
   const viewer = document.getElementById('predictionViewer');
@@ -2413,7 +2408,6 @@ function openScoringHelpModal() {
           <h4>🌍 Fase de grupos</h4>
           <ul>
             <li>Resultado exacto de partido: <strong>${puntuaciones.grupos.partido.resultadoExacto} pts</strong></li>
-            <li>Diferencia de goles correcta: <strong>${puntuaciones.grupos.partido.diferenciaGoles} pts</strong></li>
             <li>Ganador/empate correcto: <strong>${puntuaciones.grupos.partido.ganadorEmpateCorrecto} pt</strong></li>
             <li>1º exacto de grupo: <strong>${puntuaciones.grupos.posicion.primero} pts</strong></li>
             <li>2º exacto de grupo: <strong>${puntuaciones.grupos.posicion.segundo} pts</strong></li>
@@ -2447,6 +2441,7 @@ function openScoringHelpModal() {
         La puntuación total de eliminatorias sí suma todas las decisiones acertadas. En el bracket del ranking, cada cajita muestra solo los puntos de esa ronda concreta; en la final puede sumar finalista + campeón si has clavado ambas cosas.
       </p>
 
+
       <div class="scoring-help-example">
         <div class="scoring-example-badge got-points">+3</div>
         <div class="scoring-example-text">
@@ -2454,11 +2449,13 @@ function openScoringHelpModal() {
           acertar un resultado exacto, que una selección llegue a 16avos, semis, final, etc.
         </div>
       </div>
+
+      <div class="scoring-help-footer">
+        Los resultados y las puntuaciones NO son reales, se resetearán a 0 cuando comience el mundial. Es solo un ejemplo aleatorio.
+      </div>
     </div>
   `;
 }
-
-
 
 function renderPredictionReview(entry) {
   const viewer = document.getElementById('predictionViewer');
