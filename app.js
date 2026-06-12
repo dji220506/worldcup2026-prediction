@@ -2408,6 +2408,7 @@ function openScoringHelpModal() {
           <h4>🌍 Fase de grupos</h4>
           <ul>
             <li>Resultado exacto de partido: <strong>${puntuaciones.grupos.partido.resultadoExacto} pts</strong></li>
+            <li>Diferencia de goles acertada: <strong>${puntuaciones.grupos.partido.diferenciaGoles} pts</strong></li>
             <li>Ganador/empate correcto: <strong>${puntuaciones.grupos.partido.ganadorEmpateCorrecto} pt</strong></li>
             <li>1º exacto de grupo: <strong>${puntuaciones.grupos.posicion.primero} pts</strong></li>
             <li>2º exacto de grupo: <strong>${puntuaciones.grupos.posicion.segundo} pts</strong></li>
@@ -2531,12 +2532,13 @@ function getPredictionStandingReviewClass(team, predIdx, predOrder, predThirds, 
   return ' review-wrong';
 }
 
-
 function getGroupMatchReviewPoints(ph, pa, rh, ra) {
   if (ph === null || pa === null || rh === null || ra === null) return 0;
   if (ph === rh && pa === ra) return puntuaciones.grupos.partido.resultadoExacto;
+  if (getResultOutcome(ph, pa) === getResultOutcome(rh, ra) && ph - pa === rh - ra) return puntuaciones.grupos.partido.diferenciaGoles;
   return getResultOutcome(ph, pa) === getResultOutcome(rh, ra) ? puntuaciones.grupos.partido.ganadorEmpateCorrecto : 0;
 }
+
 
 function getPredictedGroupPositionPoints(team, idx, autoThirds, realOrder, realThirds) {
   // Group-stage position points are ONLY for exact positions.
