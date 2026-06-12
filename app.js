@@ -15,7 +15,8 @@ const ENTRY_ID = 'entry.852640772';
 const puntuaciones = {
   grupos: {
     partido: {
-      resultadoExacto: 2,
+      resultadoExacto: 3,
+      diferenciaGoles: 2,
       ganadorEmpateCorrecto: 1
     },
     posicion: {
@@ -2250,6 +2251,7 @@ function scorePrediction(prediction, results = RESULTS) {
       if (ph === null || pa === null || rh === null || ra === null) return;
 
       if (ph === rh && pa === ra) score += puntuaciones.grupos.partido.resultadoExacto;
+      else if (getResultOutcome(ph, pa) === getResultOutcome(rh, ra) && ph - pa === rh - ra) score += puntuaciones.grupos.partido.diferenciaGoles;
       else if (getResultOutcome(ph, pa) === getResultOutcome(rh, ra)) score += puntuaciones.grupos.partido.ganadorEmpateCorrecto;
     });
   });
