@@ -2408,6 +2408,7 @@ function openScoringHelpModal() {
           <h4>🌍 Fase de grupos</h4>
           <ul>
             <li>Resultado exacto de partido: <strong>${puntuaciones.grupos.partido.resultadoExacto} pts</strong></li>
+            <li>Resultado exacto de partido: <strong>${puntuaciones.grupos.partido.diferenciaGoles} pts</strong></li>
             <li>Ganador/empate correcto: <strong>${puntuaciones.grupos.partido.ganadorEmpateCorrecto} pt</strong></li>
             <li>1º exacto de grupo: <strong>${puntuaciones.grupos.posicion.primero} pts</strong></li>
             <li>2º exacto de grupo: <strong>${puntuaciones.grupos.posicion.segundo} pts</strong></li>
@@ -2450,9 +2451,9 @@ function openScoringHelpModal() {
         </div>
       </div>
 
-      <div class="scoring-help-footer">
-        Los resultados y las puntuaciones NO son reales, se resetearán a 0 cuando comience el mundial. Es solo un ejemplo aleatorio.
-      </div>
+    
+        
+     
     </div>
   `;
 }
