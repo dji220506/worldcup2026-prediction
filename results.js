@@ -1,4 +1,3 @@
-
 const RESULTS = {
   "groupMatches": {
     "A": {
@@ -6,11 +5,16 @@ const RESULTS = {
       "South Korea__Czech Republic": { "home": 2, "away": 1 }
     },
     "B": {
-      "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 }
+      "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
+      "Qatar__Switzerland": { "home": 1, "away": 1 }
+    },
+    "C": {
+      "Brazil__Morocco": { "home": 1, "away": 1 },
+      "Haiti__Scotland": { "home": 0, "away": 1 }
     },
     "D": {
-      "USA__Paraguay": { "home": 4, "away": 1 }
+      "USA__Paraguay": { "home": 4, "away": 1 },
+      "Australia__Turkey": { "home": 2, "away": 0 }
     }
   }
 };
-
