@@ -29,7 +29,7 @@ const RESULTS = {
       "Iran__New Zealand": { "home": 2, "away": 2 }
     },
     "H": {
-      "Spain__Cabo Verde": { "home": 0, "away": 0 },
+      "Spain__Cape Verde": { "home": 0, "away": 0 },
       "Saudi Arabia__Uruguay": { "home": 1, "away": 1 }
     }
   }
