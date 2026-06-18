@@ -39,6 +39,14 @@ const RESULTS = {
     "J": {
       "Argentina__Algeria": { "home": 3, "away": 0 },
       "Austria__Jordan": { "home": 3, "away": 1 }
+    },
+    "K": {
+      "Portugal__DR Congo": { "home": 1, "away": 1 },
+      "Uzbekistan__Colombia": { "home": 1, "away": 3 }
+    },
+    "L": {
+      "England__Croatia": { "home": 4, "away": 2 },
+      "Ghana__Panama": { "home": 1, "away": 0 }
     }
   }
 };
