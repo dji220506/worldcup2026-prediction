@@ -1,5 +1,12 @@
-
 const RESULTS = {
+  "groups": {
+    "B": [
+      "Switzerland",
+      "Canada",
+      "Qatar",
+      "Bosnia & Herzegovina"
+    ]
+  },
   "groupMatches": {
     "A": {
       "Mexico__South Africa": { "home": 2, "away": 0 },
@@ -11,7 +18,9 @@ const RESULTS = {
       "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
       "Qatar__Switzerland": { "home": 1, "away": 1 },
       "Switzerland__Bosnia & Herzegovina": { "home": 4, "away": 1 },
-      "Canada__Qatar": { "home": 6, "away": 0 }
+      "Canada__Qatar": { "home": 6, "away": 0 },
+      "Switzerland__Canada": { "home": 2, "away": 1 },
+      "Bosnia & Herzegovina__Qatar": { "home": 3, "away": 1 }
     },
     "C": {
       "Brazil__Morocco": { "home": 1, "away": 1 },
