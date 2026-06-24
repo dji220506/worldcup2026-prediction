@@ -3,8 +3,8 @@ const RESULTS = {
     "B": [
       "Switzerland",
       "Canada",
-      "Qatar",
-      "Bosnia & Herzegovina"
+      "Bosnia & Herzegovina",
+      "Qatar"
     ]
   },
   "groupMatches": {
