@@ -1,11 +1,10 @@
-
 const RESULTS = {
   "groups": {
     "A": [
       "Mexico",
       "South Africa",
       "South Korea",
-      "Czechia"
+      "Czech Republic"
     ],
     "B": [
       "Switzerland",
@@ -27,7 +26,7 @@ const RESULTS = {
       "Czech Republic__South Africa": { "home": 1, "away": 1 },
       "Mexico__South Korea": { "home": 1, "away": 0 },
       "South Africa__South Korea": { "home": 1, "away": 0 },
-      "Czechia__Mexico": { "home": 0, "away": 3 }
+      "Czech Republic__Mexico": { "home": 0, "away": 3 }
     },
     "B": {
       "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
