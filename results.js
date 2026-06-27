@@ -35,6 +35,24 @@ const RESULTS = {
       "Japan",
       "Sweden",
       "Tunisia"
+    ],
+    "G": [
+      "Belgium",
+      "Egypt",
+      "Iran",
+      "New Zealand"
+    ],
+    "H": [
+      "Spain",
+      "Cape Verde",
+      "Uruguay",
+      "Saudi Arabia"
+    ],
+    "I": [
+      "France",
+      "Norway",
+      "Senegal",
+      "Iraq"
     ]
   },
   "groupMatches": {
@@ -90,19 +108,25 @@ const RESULTS = {
       "Belgium__Egypt": { "home": 1, "away": 1 },
       "Iran__New Zealand": { "home": 2, "away": 2 },
       "Belgium__Iran": { "home": 0, "away": 0 },
-      "New Zealand__Egypt": { "home": 1, "away": 3 }
+      "New Zealand__Egypt": { "home": 1, "away": 3 },
+      "New Zealand__Belgium": { "home": 1, "away": 5 },
+      "Egypt__Iran": { "home": 1, "away": 1 }
     },
     "H": {
       "Spain__Cape Verde": { "home": 0, "away": 0 },
       "Saudi Arabia__Uruguay": { "home": 1, "away": 1 },
       "Spain__Saudi Arabia": { "home": 4, "away": 0 },
-      "Uruguay__Cape Verde": { "home": 2, "away": 2 }
+      "Uruguay__Cape Verde": { "home": 2, "away": 2 },
+      "Cape Verde__Saudi Arabia": { "home": 0, "away": 0 },
+      "Uruguay__Spain": { "home": 0, "away": 1 }
     },
     "I": {
       "France__Senegal": { "home": 3, "away": 1 },
       "Iraq__Norway": { "home": 1, "away": 4 },
       "France__Iraq": { "home": 3, "away": 0 },
-      "Norway__Senegal": { "home": 3, "away": 2 }
+      "Norway__Senegal": { "home": 3, "away": 2 },
+      "Norway__France": { "home": 1, "away": 4 },
+      "Senegal__Iraq": { "home": 5, "away": 0 }
     },
     "J": {
       "Argentina__Algeria": { "home": 3, "away": 0 },
