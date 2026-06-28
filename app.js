@@ -738,20 +738,20 @@ async function loadData() {
     KO_TREE = {
       round32: [
         {num:73,slot1:{type:'runner_up',group:'A'},slot2:{type:'runner_up',group:'B'}},
-        {num:74,slot1:{type:'winner',group:'E'},slot2:{type:'third_place',groups:['A','B','C','D','F']}},
+        {num:74,slot1:{type:'winner',group:'E'},slot2:{type:'third_place',team:'Paraguay'}},
         {num:75,slot1:{type:'winner',group:'F'},slot2:{type:'runner_up',group:'C'}},
         {num:76,slot1:{type:'winner',group:'C'},slot2:{type:'runner_up',group:'F'}},
-        {num:77,slot1:{type:'winner',group:'I'},slot2:{type:'third_place',groups:['C','D','F','G','H']}},
+        {num:77,slot1:{type:'winner',group:'I'},slot2:{type:'third_place',team:'Suecia'}},
         {num:78,slot1:{type:'runner_up',group:'E'},slot2:{type:'runner_up',group:'I'}},
-        {num:79,slot1:{type:'winner',group:'A'},slot2:{type:'third_place',groups:['C','E','F','H','I']}},
-        {num:80,slot1:{type:'winner',group:'L'},slot2:{type:'third_place',groups:['E','H','I','J','K']}},
-        {num:81,slot1:{type:'winner',group:'D'},slot2:{type:'third_place',groups:['B','E','F','I','J']}},
-        {num:82,slot1:{type:'winner',group:'G'},slot2:{type:'third_place',groups:['A','E','H','I','J']}},
+        {num:79,slot1:{type:'winner',group:'A'},slot2:{type:'third_place',team:'Ecuador'}},
+        {num:80,slot1:{type:'winner',group:'L'},slot2:{type:'third_place',team:'RD Congo'}},
+        {num:81,slot1:{type:'winner',group:'D'},slot2:{type:'third_place',team:'Bosnia and Herzegovina'}},
+        {num:82,slot1:{type:'winner',group:'G'},slot2:{type:'third_place',team:'Senegal'}},
         {num:83,slot1:{type:'runner_up',group:'K'},slot2:{type:'runner_up',group:'L'}},
         {num:84,slot1:{type:'winner',group:'H'},slot2:{type:'runner_up',group:'J'}},
-        {num:85,slot1:{type:'winner',group:'B'},slot2:{type:'third_place',groups:['E','F','G','I','J']}},
+        {num:85,slot1:{type:'winner',group:'B'},slot2:{type:'third_place',team:'Argelia'}},
         {num:86,slot1:{type:'winner',group:'J'},slot2:{type:'runner_up',group:'H'}},
-        {num:87,slot1:{type:'winner',group:'K'},slot2:{type:'third_place',groups:['D','E','I','J','L']}},
+        {num:87,slot1:{type:'winner',group:'K'},slot2:{type:'third_place',team:'Ghana'}},
         {num:88,slot1:{type:'runner_up',group:'D'},slot2:{type:'runner_up',group:'G'}}
       ],
       round16: [
