@@ -165,4 +165,20 @@ const RESULTS = {
       "Jordan__Argentina": { "home": 1, "away": 3 }
     },
     "K": {
-      "
+      "Portugal__DR Congo": { "home": 1, "away": 1 },
+      "Uzbekistan__Colombia": { "home": 1, "away": 3 },
+      "Portugal__Uzbekistan": { "home": 5, "away": 0 },
+      "Colombia__DR Congo": { "home": 1, "away": 0 },
+      "Colombia__Portugal": { "home": 0, "away": 0 },
+      "DR Congo__Uzbekistan": { "home": 3, "away": 1 }
+    },
+    "L": {
+      "England__Croatia": { "home": 4, "away": 2 },
+      "Ghana__Panama": { "home": 1, "away": 0 },
+      "England__Ghana": { "home": 0, "away": 0 },
+      "Panama__Croatia": { "home": 0, "away": 1 },
+      "Panama__England": { "home": 0, "away": 2 },
+      "Croatia__Ghana": { "home": 2, "away": 1 }
+    }
+  }
+};
