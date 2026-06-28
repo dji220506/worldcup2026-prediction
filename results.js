@@ -184,7 +184,7 @@ const RESULTS = {
   "knockout": {
     "matches": {
       "round32": [
-        { "match": 73, "team1": "South Africa", "team2": "Canada" },
+        { "match": 73, "team1": "South Africa", "team2": "Canada", "winner": "Canada" },
         { "match": 74, "team1": "Germany", "team2": "Paraguay" },
         { "match": 75, "team1": "Netherlands", "team2": "Morocco" },
         { "match": 76, "team1": "Brazil", "team2": "Japan" },
@@ -204,3 +204,4 @@ const RESULTS = {
     }
   }
 };
+
