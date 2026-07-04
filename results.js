@@ -181,6 +181,16 @@ const RESULTS = {
       "Croatia__Ghana": { "home": 2, "away": 1 }
     }
   },
+  "ThirdPlace": [
+    "DR Congo",
+    "Sweden",
+    "Ghana",
+    "Ecuador",
+    "Bosnia & Herzegovina",
+    "Algeria",
+    "Paraguay",
+    "Senegal"
+  ],
   "knockout": {
     "matches": {
       "round32": [
@@ -188,19 +198,42 @@ const RESULTS = {
         { "match": 74, "team1": "Germany", "team2": "Paraguay", "winner": "Paraguay" },
         { "match": 75, "team1": "Netherlands", "team2": "Morocco", "winner": "Morocco" },
         { "match": 76, "team1": "Brazil", "team2": "Japan", "winner": "Brazil" },
-        { "match": 77, "team1": "France", "team2": "Sweden" },
-        { "match": 78, "team1": "Ivory Coast", "team2": "Norway" },
-        { "match": 79, "team1": "Mexico", "team2": "Ecuador" },
-        { "match": 80, "team1": "England", "team2": "DR Congo" },
-        { "match": 81, "team1": "USA", "team2": "Bosnia & Herzegovina" },
-        { "match": 82, "team1": "Belgium", "team2": "Senegal" },
-        { "match": 83, "team1": "Portugal", "team2": "Croatia" },
-        { "match": 84, "team1": "Spain", "team2": "Austria" },
-        { "match": 85, "team1": "Switzerland", "team2": "Algeria" },
-        { "match": 86, "team1": "Argentina", "team2": "Cape Verde" },
-        { "match": 87, "team1": "Colombia", "team2": "Ghana" },
-        { "match": 88, "team1": "Australia", "team2": "Egypt" }
+        { "match": 77, "team1": "France", "team2": "Sweden", "winner": "France" },
+        { "match": 78, "team1": "Ivory Coast", "team2": "Norway", "winner": "Norway" },
+        { "match": 79, "team1": "Mexico", "team2": "Ecuador", "winner": "Mexico" },
+        { "match": 80, "team1": "England", "team2": "DR Congo", "winner": "England" },
+        { "match": 81, "team1": "USA", "team2": "Bosnia & Herzegovina", "winner": "USA" },
+        { "match": 82, "team1": "Belgium", "team2": "Senegal", "winner": "Belgium" },
+        { "match": 83, "team1": "Portugal", "team2": "Croatia", "winner": "Portugal" },
+        { "match": 84, "team1": "Spain", "team2": "Austria", "winner": "Spain" },
+        { "match": 85, "team1": "Switzerland", "team2": "Algeria", "winner": "Switzerland" },
+        { "match": 86, "team1": "Argentina", "team2": "Cape Verde", "winner": "Argentina" },
+        { "match": 87, "team1": "Colombia", "team2": "Ghana", "winner": "Colombia" },
+        { "match": 88, "team1": "Australia", "team2": "Egypt", "winner": "Egypt" }
+      ],
+      "round16": [
+        { "match": 89, "team1": "Paraguay", "team2": "France" },
+        { "match": 90, "team1": "Canada", "team2": "Morocco" },
+        { "match": 91, "team1": "Brazil", "team2": "Norway" },
+        { "match": 92, "team1": "Mexico", "team2": "England" },
+        { "match": 93, "team1": "Portugal", "team2": "Spain" },
+        { "match": 94, "team1": "USA", "team2": "Belgium" },
+        { "match": 95, "team1": "Argentina", "team2": "Egypt" },
+        { "match": 96, "team1": "Switzerland", "team2": "Colombia" }
       ]
     }
-  }
+  },
+  "round32": [
+    "South Africa", "Canada", "Germany", "Paraguay", "Netherlands", "Morocco", 
+    "Brazil", "Japan", "France", "Sweden", "Ivory Coast", "Norway", 
+    "Mexico", "Ecuador", "England", "DR Congo", "USA", "Bosnia & Herzegovina", 
+    "Belgium", "Senegal", "Portugal", "Croatia", "Spain", "Austria", 
+    "Switzerland", "Algeria", "Argentina", "Cape Verde", "Colombia", "Ghana", 
+    "Australia", "Egypt"
+  ],
+  "round16": [
+    "Canada", "Paraguay", "Morocco", "Brazil", "France", "Norway", 
+    "Mexico", "England", "USA", "Belgium", "Portugal", "Spain", 
+    "Switzerland", "Argentina", "Colombia", "Egypt"
+  ]
 };
