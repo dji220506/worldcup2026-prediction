@@ -219,7 +219,13 @@ const RESULTS = {
         { "match": 93, "team1": "Portugal", "team2": "Spain", "winner": "Spain" },
         { "match": 94, "team1": "USA", "team2": "Belgium", "winner": "Belgium" },
         { "match": 95, "team1": "Argentina", "team2": "Egypt", "winner": "Argentina" },
-        { "match": 96, "team1": "Switzerland", "team2": "Colombia", "winner": "Colombia" }
+        { "match": 96, "team1": "Switzerland", "team2": "Colombia", "winner": "Switzerland" }
+      ],
+      "quarterfinals": [
+        { "match": 97, "team1": "France", "team2": "Morocco" },
+        { "match": 98, "team1": "Norway", "team2": "England" },
+        { "match": 99, "team1": "Spain", "team2": "Belgium" },
+        { "match": 100, "team1": "Argentina", "team2": "Switzerland" }
       ]
     }
   },
@@ -238,6 +244,6 @@ const RESULTS = {
   ],
   "quarterfinals": [
     "France", "Morocco", "Norway", "England", "Spain", "Belgium", 
-    "Argentina", "Colombia"
+    "Argentina", "Switzerland"
   ]
 };
