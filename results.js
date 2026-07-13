@@ -73,16 +73,6 @@ const RESULTS = {
       "Panama"
     ]
   },
-  "ThirdPlace": [
-    "DR Congo",
-    "Sweden",
-    "Ghana",
-    "Ecuador",
-    "Bosnia & Herzegovina",
-    "Algeria",
-    "Paraguay",
-    "Senegal"
-  ],
   "groupMatches": {
     "A": {
       "Mexico__South Africa": { "home": 2, "away": 0 },
@@ -166,7 +156,7 @@ const RESULTS = {
     },
     "K": {
       "Portugal__DR Congo": { "home": 1, "away": 1 },
-      "Uzbekistan__Colombia": { "home": 1, "away": 3 },
+      "Uzbekistan__Colombia": { "home": 3, "away": 1 },
       "Portugal__Uzbekistan": { "home": 5, "away": 0 },
       "Colombia__DR Congo": { "home": 1, "away": 0 },
       "Colombia__Portugal": { "home": 0, "away": 0 },
@@ -222,10 +212,14 @@ const RESULTS = {
         { "match": 96, "team1": "Switzerland", "team2": "Colombia", "winner": "Switzerland" }
       ],
       "quarterfinals": [
-        { "match": 97, "team1": "France", "team2": "Morocco" },
-        { "match": 98, "team1": "Norway", "team2": "England" },
-        { "match": 99, "team1": "Spain", "team2": "Belgium" },
-        { "match": 100, "team1": "Argentina", "team2": "Switzerland" }
+        { "match": 97, "team1": "France", "team2": "Morocco", "winner": "France" },
+        { "match": 98, "team1": "Norway", "team2": "England", "winner": "England" },
+        { "match": 99, "team1": "Spain", "team2": "Belgium", "winner": "Spain" },
+        { "match": 100, "team1": "Argentina", "team2": "Switzerland", "winner": "Argentina" }
+      ],
+      "semifinals": [
+        { "match": 101, "team1": "France", "team2": "Spain" },
+        { "match": 102, "team1": "England", "team2": "Argentina" }
       ]
     }
   },
@@ -245,5 +239,8 @@ const RESULTS = {
   "quarterfinals": [
     "France", "Morocco", "Norway", "England", "Spain", "Belgium", 
     "Argentina", "Switzerland"
+  ],
+  "semifinals": [
+    "France", "Spain", "England", "Argentina"
   ]
 };
