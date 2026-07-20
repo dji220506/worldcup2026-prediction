@@ -3,32 +3,32 @@ const RESULTS = {
     "A": [
       "Mexico",
       "South Africa",
-      "Czech Republic",
-      "South Korea"
+      "South Korea",
+      "Czech Republic"
     ],
     "B": [
       "Switzerland",
       "Canada",
-      "Qatar",
-      "Bosnia & Herzegovina"
+      "Bosnia & Herzegovina",
+      "Qatar"
     ],
     "C": [
       "Brazil",
-      "Scotland",
       "Morocco",
+      "Scotland",
       "Haiti"
     ],
     "D": [
-      "Turkey",
-      "Paraguay",
       "USA",
-      "Australia"
+      "Australia",
+      "Paraguay",
+      "Turkey"
     ],
     "E": [
+      "Germany",
       "Ivory Coast",
-      "Curaçao",
       "Ecuador",
-      "Germany"
+      "Curaçao"
     ],
     "F": [
       "Netherlands",
@@ -37,228 +37,179 @@ const RESULTS = {
       "Tunisia"
     ],
     "G": [
-      "Egypt",
       "Belgium",
-      "New Zealand",
-      "Iran"
+      "Egypt",
+      "Iran",
+      "New Zealand"
     ],
     "H": [
-      "Uruguay",
-      "Cape Verde",
       "Spain",
+      "Cape Verde",
+      "Uruguay",
       "Saudi Arabia"
     ],
     "I": [
-      "Norway",
       "France",
-      "Iraq",
-      "Senegal"
+      "Norway",
+      "Senegal",
+      "Iraq"
     ],
     "J": [
-      "Jordan",
       "Argentina",
+      "Austria",
       "Algeria",
-      "Austria"
+      "Jordan"
     ],
     "K": [
-      "DR Congo",
-      "Portugal",
       "Colombia",
+      "Portugal",
+      "DR Congo",
       "Uzbekistan"
     ],
     "L": [
-      "Ghana",
-      "Panama",
+      "England",
       "Croatia",
-      "England"
+      "Ghana",
+      "Panama"
     ]
   },
-  "thirdPlace": [
-    "Sweden",
-    "Colombia",
-    "Iraq",
-    "Morocco",
-    "Algeria",
-    "Spain",
-    "Ecuador",
-    "New Zealand"
-  ],
   "groupMatches": {
     "A": {
       "Mexico__South Africa": { "home": 2, "away": 0 },
+      "South Korea__Czech Republic": { "home": 2, "away": 1 },
+      "Czech Republic__South Africa": { "home": 1, "away": 1 },
       "Mexico__South Korea": { "home": 1, "away": 0 },
-      "Mexico__Czech Republic": { "home": 2, "away": 1 },
-      "South Africa__South Korea": { "home": 2, "away": 0 },
-      "South Africa__Czech Republic": { "home": 1, "away": 0 },
-      "South Korea__Czech Republic": { "home": 1, "away": 1 }
+      "South Africa__South Korea": { "home": 1, "away": 0 },
+      "Czech Republic__Mexico": { "home": 0, "away": 3 }
     },
     "B": {
-      "Canada__Switzerland": { "home": 0, "away": 0 },
-      "Canada__Qatar": { "home": 2, "away": 1 },
       "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
-      "Switzerland__Qatar": { "home": 2, "away": 0 },
-      "Switzerland__Bosnia & Herzegovina": { "home": 2, "away": 1 },
-      "Qatar__Bosnia & Herzegovina": { "home": 1, "away": 0 }
+      "Qatar__Switzerland": { "home": 1, "away": 1 },
+      "Switzerland__Bosnia & Herzegovina": { "home": 4, "away": 1 },
+      "Canada__Qatar": { "home": 6, "away": 0 },
+      "Switzerland__Canada": { "home": 2, "away": 1 },
+      "Bosnia & Herzegovina__Qatar": { "home": 3, "away": 1 }
     },
     "C": {
+      "Brazil__Morocco": { "home": 1, "away": 1 },
+      "Haiti__Scotland": { "home": 0, "away": 1 },
+      "Scotland__Morocco": { "home": 0, "away": 1 },
       "Brazil__Haiti": { "home": 3, "away": 0 },
-      "Brazil__Morocco": { "home": 2, "away": 0 },
-      "Brazil__Scotland": { "home": 2, "away": 1 },
-      "Haiti__Morocco": { "home": 1, "away": 3 },
-      "Haiti__Scotland": { "home": 1, "away": 3 },
-      "Morocco__Scotland": { "home": 0, "away": 1 }
+      "Morocco__Haiti": { "home": 4, "away": 2 },
+      "Scotland__Brazil": { "home": 0, "away": 3 }
     },
     "D": {
-      "Turkey__Paraguay": { "home": 2, "away": 1 },
-      "Turkey__Australia": { "home": 2, "away": 1 },
-      "Turkey__USA": { "home": 2, "away": 0 },
-      "Paraguay__Australia": { "home": 1, "away": 0 },
-      "Paraguay__USA": { "home": 0, "away": 0 },
-      "Australia__USA": { "home": 0, "away": 0 }
+      "USA__Paraguay": { "home": 4, "away": 1 },
+      "Australia__Turkey": { "home": 2, "away": 0 },
+      "USA__Australia": { "home": 2, "away": 0 },
+      "Turkey__Paraguay": { "home": 0, "away": 1 },
+      "Turkey__USA": { "home": 3, "away": 2 },
+      "Paraguay__Australia": { "home": 0, "away": 0 }
     },
     "E": {
-      "Curaçao__Ecuador": { "home": 2, "away": 1 },
-      "Curaçao__Germany": { "home": 1, "away": 0 },
-      "Curaçao__Ivory Coast": { "home": 1, "away": 3 },
-      "Ecuador__Germany": { "home": 2, "away": 1 },
-      "Ecuador__Ivory Coast": { "home": 2, "away": 0 },
-      "Germany__Ivory Coast": { "home": 0, "away": 1 }
+      "Germany__Curaçao": { "home": 7, "away": 1 },
+      "Ivory Coast__Ecuador": { "home": 1, "away": 0 },
+      "Germany__Ivory Coast": { "home": 2, "away": 1 },
+      "Ecuador__Curaçao": { "home": 0, "away": 0 },
+      "Curaçao__Ivory Coast": { "home": 0, "away": 2 },
+      "Ecuador__Germany": { "home": 2, "away": 1 }
     },
     "F": {
-      "Japan__Netherlands": { "home": 3, "away": 1 },
-      "Japan__Tunisia": { "home": 1, "away": 1 },
-      "Japan__Sweden": { "home": 2, "away": 2 },
-      "Netherlands__Tunisia": { "home": 1, "away": 0 },
-      "Netherlands__Sweden": { "home": 1, "away": 0 },
-      "Tunisia__Sweden": { "home": 1, "away": 3 }
+      "Netherlands__Japan": { "home": 2, "away": 2 },
+      "Sweden__Tunisia": { "home": 5, "away": 1 },
+      "Netherlands__Sweden": { "home": 5, "away": 1 },
+      "Tunisia__Japan": { "home": 0, "away": 4 },
+      "Tunisia__Netherlands": { "home": 1, "away": 3 },
+      "Japan__Sweden": { "home": 1, "away": 1 }
     },
     "G": {
-      "Egypt__Belgium": { "home": 2, "away": 1 },
-      "Egypt__Iran": { "home": 2, "away": 1 },
-      "Egypt__New Zealand": { "home": 3, "away": 1 },
-      "Belgium__Iran": { "home": 1, "away": 0 },
-      "Belgium__New Zealand": { "home": 1, "away": 0 },
-      "Iran__New Zealand": { "home": 1, "away": 2 }
+      "Belgium__Egypt": { "home": 1, "away": 1 },
+      "Iran__New Zealand": { "home": 2, "away": 2 },
+      "Belgium__Iran": { "home": 0, "away": 0 },
+      "New Zealand__Egypt": { "home": 1, "away": 3 },
+      "New Zealand__Belgium": { "home": 1, "away": 5 },
+      "Egypt__Iran": { "home": 1, "away": 1 }
     },
     "H": {
-      "Uruguay__Spain": { "home": 1, "away": 0 },
-      "Uruguay__Saudi Arabia": { "home": 3, "away": 1 },
-      "Uruguay__Cape Verde": { "home": 0, "away": 0 },
-      "Spain__Saudi Arabia": { "home": 0, "away": 1 },
-      "Spain__Cape Verde": { "home": 2, "away": 1 },
-      "Saudi Arabia__Cape Verde": { "home": 0, "away": 1 }
+      "Spain__Cape Verde": { "home": 0, "away": 0 },
+      "Saudi Arabia__Uruguay": { "home": 1, "away": 1 },
+      "Spain__Saudi Arabia": { "home": 4, "away": 0 },
+      "Uruguay__Cape Verde": { "home": 2, "away": 2 },
+      "Cape Verde__Saudi Arabia": { "home": 0, "away": 0 },
+      "Uruguay__Spain": { "home": 0, "away": 1 }
     },
     "I": {
-      "France__Iraq": { "home": 3, "away": 1 },
-      "France__Senegal": { "home": 3, "away": 2 },
-      "France__Norway": { "home": 0, "away": 2 },
-      "Iraq__Senegal": { "home": 2, "away": 1 },
-      "Iraq__Norway": { "home": 1, "away": 1 },
-      "Senegal__Norway": { "home": 0, "away": 1 }
+      "France__Senegal": { "home": 3, "away": 1 },
+      "Iraq__Norway": { "home": 1, "away": 4 },
+      "France__Iraq": { "home": 3, "away": 0 },
+      "Norway__Senegal": { "home": 3, "away": 2 },
+      "Norway__France": { "home": 1, "away": 4 },
+      "Senegal__Iraq": { "home": 5, "away": 0 }
     },
     "J": {
-      "Argentina__Jordan": { "home": 1, "away": 3 },
-      "Argentina__Algeria": { "home": 2, "away": 0 },
-      "Argentina__Austria": { "home": 1, "away": 0 },
-      "Jordan__Algeria": { "home": 3, "away": 2 },
-      "Jordan__Austria": { "home": 1, "away": 1 },
-      "Algeria__Austria": { "home": 2, "away": 0 }
+      "Argentina__Algeria": { "home": 3, "away": 0 },
+      "Austria__Jordan": { "home": 3, "away": 1 },
+      "Argentina__Austria": { "home": 2, "away": 0 },
+      "Jordan__Algeria": { "home": 1, "away": 2 },
+      "Algeria__Austria": { "home": 3, "away": 3 },
+      "Jordan__Argentina": { "home": 1, "away": 3 }
     },
     "K": {
-      "Portugal__Uzbekistan": { "home": 2, "away": 1 },
-      "Portugal__DR Congo": { "home": 2, "away": 1 },
-      "Portugal__Colombia": { "home": 0, "away": 1 },
-      "Uzbekistan__DR Congo": { "home": 0, "away": 3 },
-      "Uzbekistan__Colombia": { "home": 2, "away": 2 },
-      "DR Congo__Colombia": { "home": 1, "away": 0 }
+      "Portugal__DR Congo": { "home": 1, "away": 1 },
+      "Uzbekistan__Colombia": { "home": 3, "away": 1 },
+      "Portugal__Uzbekistan": { "home": 5, "away": 0 },
+      "Colombia__DR Congo": { "home": 1, "away": 0 },
+      "Colombia__Portugal": { "home": 0, "away": 0 },
+      "DR Congo__Uzbekistan": { "home": 3, "away": 1 }
     },
     "L": {
-      "England__Ghana": { "home": 2, "away": 3 },
-      "England__Croatia": { "home": 0, "away": 1 },
-      "England__Panama": { "home": 0, "away": 2 },
-      "Ghana__Croatia": { "home": 2, "away": 0 },
-      "Ghana__Panama": { "home": 1, "away": 1 },
-      "Croatia__Panama": { "home": 1, "away": 2 }
+      "England__Croatia": { "home": 4, "away": 2 },
+      "Ghana__Panama": { "home": 1, "away": 0 },
+      "England__Ghana": { "home": 0, "away": 0 },
+      "Panama__Croatia": { "home": 0, "away": 1 },
+      "Panama__England": { "home": 0, "away": 2 },
+      "Croatia__Ghana": { "home": 2, "away": 1 }
     }
   },
+  "ThirdPlace": [
+    "DR Congo",
+    "Sweden",
+    "Ghana",
+    "Ecuador",
+    "Bosnia & Herzegovina",
+    "Algeria",
+    "Paraguay",
+    "Senegal"
+  ],
   "knockout": {
-    "round32": [
-      "South Africa",
-      "Ivory Coast",
-      "Netherlands",
-      "Brazil",
-      "Norway",
-      "France",
-      "Mexico",
-      "Algeria",
-      "Turkey",
-      "Morocco",
-      "Portugal",
-      "Uruguay",
-      "Switzerland",
-      "Jordan",
-      "Ecuador",
-      "Belgium"
-    ],
-    "round16": [
-      "Netherlands",
-      "Norway",
-      "France",
-      "Algeria",
-      "Uruguay",
-      "Morocco",
-      "Belgium",
-      "Ecuador"
-    ],
-    "quarterfinals": [
-      "Norway",
-      "Morocco",
-      "Algeria",
-      "Ecuador"
-    ],
-    "semifinals": [
-      "France",
-      "Spain",
-      "England",
-      "Argentina"
-    ],
-    "champion": "Spain",
-    "runnerUp": "Argentina",
-    "finalists": [
-      "Spain",
-      "Argentina"
-    ],
-    "thirdPlaceWinner": "England",
-    "final": "Spain",
-    "thirdPlace": "England",
     "matches": {
       "round32": [
-        { "match": 73, "team1": "South Africa", "team2": "Canada", "winner": "South Africa" },
-        { "match": 74, "team1": "Ivory Coast", "team2": "Spain", "winner": "Ivory Coast" },
-        { "match": 75, "team1": "Netherlands", "team2": "Scotland", "winner": "Netherlands" },
+        { "match": 73, "team1": "South Africa", "team2": "Canada", "winner": "Canada" },
+        { "match": 74, "team1": "Germany", "team2": "Paraguay", "winner": "Paraguay" },
+        { "match": 75, "team1": "Netherlands", "team2": "Morocco", "winner": "Morocco" },
         { "match": 76, "team1": "Brazil", "team2": "Japan", "winner": "Brazil" },
-        { "match": 77, "team1": "Norway", "team2": "New Zealand", "winner": "Norway" },
-        { "match": 78, "team1": "Curaçao", "team2": "France", "winner": "France" },
-        { "match": 79, "team1": "Mexico", "team2": "Sweden", "winner": "Mexico" },
-        { "match": 80, "team1": "Ghana", "team2": "Algeria", "winner": "Algeria" },
-        { "match": 81, "team1": "Turkey", "team2": "Colombia", "winner": "Turkey" },
-        { "match": 82, "team1": "Egypt", "team2": "Morocco", "winner": "Morocco" },
-        { "match": 83, "team1": "Portugal", "team2": "Panama", "winner": "Portugal" },
-        { "match": 84, "team1": "Uruguay", "team2": "Argentina", "winner": "Uruguay" },
-        { "match": 85, "team1": "Switzerland", "team2": "Iraq", "winner": "Switzerland" },
-        { "match": 86, "team1": "Jordan", "team2": "Cape Verde", "winner": "Jordan" },
-        { "match": 87, "team1": "DR Congo", "team2": "Ecuador", "winner": "Ecuador" },
-        { "match": 88, "team1": "Paraguay", "team2": "Belgium", "winner": "Belgium" }
+        { "match": 77, "team1": "France", "team2": "Sweden", "winner": "France" },
+        { "match": 78, "team1": "Ivory Coast", "team2": "Norway", "winner": "Norway" },
+        { "match": 79, "team1": "Mexico", "team2": "Ecuador", "winner": "Mexico" },
+        { "match": 80, "team1": "England", "team2": "DR Congo", "winner": "England" },
+        { "match": 81, "team1": "USA", "team2": "Bosnia & Herzegovina", "winner": "USA" },
+        { "match": 82, "team1": "Belgium", "team2": "Senegal", "winner": "Belgium" },
+        { "match": 83, "team1": "Portugal", "team2": "Croatia", "winner": "Portugal" },
+        { "match": 84, "team1": "Spain", "team2": "Austria", "winner": "Spain" },
+        { "match": 85, "team1": "Switzerland", "team2": "Algeria", "winner": "Switzerland" },
+        { "match": 86, "team1": "Argentina", "team2": "Cape Verde", "winner": "Argentina" },
+        { "match": 87, "team1": "Colombia", "team2": "Ghana", "winner": "Colombia" },
+        { "match": 88, "team1": "Australia", "team2": "Egypt", "winner": "Egypt" }
       ],
       "round16": [
-        { "match": 89, "team1": "South Africa", "team2": "Netherlands", "winner": "Netherlands" },
-        { "match": 90, "team1": "Ivory Coast", "team2": "Norway", "winner": "Norway" },
-        { "match": 91, "team1": "Brazil", "team2": "France", "winner": "France" },
-        { "match": 92, "team1": "Mexico", "team2": "Algeria", "winner": "Algeria" },
-        { "match": 93, "team1": "Portugal", "team2": "Uruguay", "winner": "Uruguay" },
-        { "match": 94, "team1": "Turkey", "team2": "Morocco", "winner": "Morocco" },
-        { "match": 95, "team1": "Jordan", "team2": "Belgium", "winner": "Belgium" },
-        { "match": 96, "team1": "Switzerland", "team2": "Ecuador", "winner": "Ecuador" }
+        { "match": 89, "team1": "Paraguay", "team2": "France", "winner": "France" },
+        { "match": 90, "team1": "Canada", "team2": "Morocco", "winner": "Morocco" },
+        { "match": 91, "team1": "Brazil", "team2": "Norway", "winner": "Norway" },
+        { "match": 92, "team1": "Mexico", "team2": "England", "winner": "England" },
+        { "match": 93, "team1": "Portugal", "team2": "Spain", "winner": "Spain" },
+        { "match": 94, "team1": "USA", "team2": "Belgium", "winner": "Belgium" },
+        { "match": 95, "team1": "Argentina", "team2": "Egypt", "winner": "Argentina" },
+        { "match": 96, "team1": "Switzerland", "team2": "Colombia", "winner": "Switzerland" }
       ],
       "quarterfinals": [
         { "match": 97, "team1": "France", "team2": "Morocco", "winner": "France" },
@@ -278,30 +229,37 @@ const RESULTS = {
       ]
     }
   },
-  "semifinalists": [
-    "France",
-    "Spain",
-    "England",
-    "Argentina"
+  "round32": [
+    "South Africa", "Canada", "Germany", "Paraguay", "Netherlands", "Morocco", 
+    "Brazil", "Japan", "France", "Sweden", "Ivory Coast", "Norway", 
+    "Mexico", "Ecuador", "England", "DR Congo", "USA", "Bosnia & Herzegovina", 
+    "Belgium", "Senegal", "Portugal", "Croatia", "Spain", "Austria", 
+    "Switzerland", "Algeria", "Argentina", "Cape Verde", "Colombia", "Ghana", 
+    "Australia", "Egypt"
+  ],
+  "round16": [
+    "Canada", "Paraguay", "Morocco", "Brazil", "France", "Norway", 
+    "Mexico", "England", "USA", "Belgium", "Portugal", "Spain", 
+    "Switzerland", "Argentina", "Colombia", "Egypt"
+  ],
+  "quarterfinals": [
+    "France", "Morocco", "Norway", "England", "Spain", "Belgium", 
+    "Argentina", "Switzerland"
+  ],
+  "semifinals": [
+    "France", "Spain", "England", "Argentina"
   ],
   "finalists": [
-    "Spain",
-    "Argentina"
+    "Spain", "Argentina"
   ],
-  "champion": "Spain",
-  "runnerUp": "Argentina",
-  "thirdPlaceWinner": "England",
-
-  "awards": {
-    "goldenBoot": [
-      "Kylian Mbappé",
-      "Lionel Messi",
-      "Erling Haaland"
-    ],
-    "goldenBall": [
-      "Rodri",
-      "Messi",
-      "Mbappé"
-    ]
-  }
+  "topScorers": [
+    "Kylian Mbappé",
+    "Lionel Messi",
+    "Erling Haaland"
+  ],
+  "bestPlayers": [
+    "Rodri",
+    "Messi",
+    "Mbappé"
+  ]
 };
