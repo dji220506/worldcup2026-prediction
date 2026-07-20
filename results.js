@@ -252,14 +252,20 @@ const RESULTS = {
   "finalists": [
     "Spain", "Argentina"
   ],
-  "topScorers": [
-    "Kylian Mbappé",
-    "Lionel Messi",
-    "Erling Haaland"
-  ],
-  "bestPlayers": [
-    "Rodri",
-    "Messi",
-    "Mbappé"
-  ]
+  "champion": "Spain",
+  "runnerUp": "Argentina",
+  "thirdPlaceWinner": "England",
+
+  "awards": {
+    "goldenBoot": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Erling Haaland"
+    ],
+    "goldenBall": [
+      "Rodri",
+      "Messi",
+      "Mbappé"
+    ]
+  }
 };
